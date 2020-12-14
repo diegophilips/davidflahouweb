@@ -78,13 +78,39 @@ body {
 .carousel-item {
   height: 450px;
 }
+
 #mywork {
-  display: flex;
-  justify-content: around;
   height: 60vh;
 }
 
 .spotify {
   padding: auto;
-
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+.work-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #141301;
+}
+
+.videos {
+  width: 50vw;
+  height: 445px;
+}
+
+.carousel {
+  border: 0px !important;
+}
+
+
+
+
+
+
+
+
