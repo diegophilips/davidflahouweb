@@ -1,6 +1,33 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+#me {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('me.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.me-info {
+  text-align: center;
+  color:#F8F8FF;
+  image-fit: cover;
+  font-family: 'Bebas Neue';
+}
+
+#about {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('about.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.about-info {
+  text-align: center;
+  color: #F8F8FF;
+  image-fit: cover;
+  font-family: 'poppins'
+
 
 
 body {
