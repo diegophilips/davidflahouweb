@@ -27,12 +27,12 @@
   color: #F8F8FF;
   image-fit: cover;
   font-family: 'poppins'
-
-
+}
 
 body {
   margin: 0px;
 }
+
 .navbar {
   height: 100px;
   width: 100%;
@@ -59,9 +59,9 @@ body {
 }
 
 .navbar-content {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-margin-right: 16px;
-margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 16px;
+  margin-bottom: 8px;
 }
