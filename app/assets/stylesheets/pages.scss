@@ -41,13 +41,14 @@ body {
   margin: 0px;
 }
 
-.navbar {
-  height: 100px;
+#navbar {
+  height: 75px;
   width: 100%;
   font-family: 'Poppins';
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   justify-content: flex-end;
+  background-color: #141301;
 }
 .navbar-links {
   list-style: none;
@@ -59,9 +60,10 @@ body {
   margin-right: 16px;
   a {
     text-decoration: none;
-    color: #393E41;
+    color: #CECBD2;
     &:hover {
-      color: #141301;
+      color: #F8F8FF;
+      text-decoration: none;
     }
   }
 }
@@ -76,7 +78,7 @@ body {
 
 
 .carousel-item {
-  height: 450px;
+  height: 445px;
 }
 
 #mywork {
