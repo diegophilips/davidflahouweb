@@ -109,7 +109,26 @@ body {
   border: 0px !important;
 }
 
+#holy-coven {
+  display: flex;
+  justify-content: space-around;
+  background-color: #141301;
+}
 
+.holy-infos {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  height: 445px;
+  text-align: center;
+  color: #F8F8FF;
+}
+
+.icons {
+  padding: 8px;
+  display: inline-block;
+
+}
 
 
 
