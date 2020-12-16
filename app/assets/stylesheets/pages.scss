@@ -17,6 +17,9 @@
   color:#F8F8FF;
   font-family: 'Bebas Neue';
   font-size:32px;
+  a {
+  color: #F8F8FF;
+}
 }
 
 #about {
@@ -89,8 +92,13 @@ body {
   padding: auto;
   width: 50vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2 {
+    font-family:'Bebas Neue';
+    color: #F8F8FF;
+  }
 }
 
 
@@ -129,6 +137,7 @@ body {
   display: inline-block;
 
 }
+
 
 
 
