@@ -30,7 +30,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('about.jpeg');
   background-size: cover;
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .about-info {
@@ -38,7 +38,8 @@
   text-align: center;
   color: #F8F8FF;
   image-fit: cover;
-  font-family: 'poppins'
+  font-family: 'poppins';
+  font-size: 1.15em;
 }
 
 body {
@@ -160,6 +161,7 @@ body {
   height: 60vh;
   color: #F8F8FF;
   font-family:'Bebas Neue';
+  font-size: 1.5em;
 
 }
 
@@ -199,6 +201,9 @@ body {
       text-decoration: none;
     }
   }
+}
+
+@media only screen and (max-width: 576px) {
 }
 
 
